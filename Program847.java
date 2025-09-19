@@ -221,7 +221,7 @@ public class Program847
         System.out.println("-------------------------- Marvellous DBMS ----------------------------------");
         System.out.println("-----------------------------------------------------------------------------");
 
-        while(iOption != 20)
+        while(iOption != 0)
         {
             System.out.println("-----------------------------------------------------------------------------");
             System.out.println("1 : Insert into employee " );
@@ -231,7 +231,7 @@ public class Program847
             System.out.println("5 : select * from employee where EmpName = ____ " );
             System.out.println("6 : delete from employee where EmpId = ____ " );
 
-            System.out.println("20 : Terminate the DBMS " );
+            System.out.println("0 : Terminate the DBMS " );
             System.out.println("-----------------------------------------------------------------------------");
 
 
@@ -294,7 +294,7 @@ public class Program847
 
                 mobj.DeleteSpecificID(id);
             }
-            else if(iOption == 20)
+            else if(iOption == 0)
             {
                 System.out.println("Thank you for using Marvellous DBMS");
                 mobj =  null;
@@ -306,3 +306,4 @@ public class Program847
         
     } // End of main class
 }
+
