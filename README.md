@@ -38,3 +38,5 @@ By working on this project, you will:
 
 ✅ Strengthen problem-solving and system design skills by creating a mini-DBMS from scratch
 
+mpId = 2;
+✅ Record deleted successfully!
